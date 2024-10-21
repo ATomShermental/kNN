@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libs/matplotplusplus",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.matplotplusplus-Debug-4fa34babde4f4af8bb06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/matplotplusplus"
+				},
+				{
+					"build" : "libs/matplotplusplus/source",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.matplotplusplus.source-Debug-24d3886cf4b3deaa0cbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/matplotplusplus/source"
+				},
+				{
+					"build" : "libs/matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-libs.matplotplusplus.source.3rd_party-Debug-f2bafe9774775f424efd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "libs/matplotplusplus/source/matplot",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.matplotplusplus.source.matplot-Debug-ccb025c5841a588c2eea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kNN",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kNN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kNN-Debug-bbea36f6c5a4f2068e8e.json",
+					"name" : "kNN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "matplot::@9153d9d6a65f4cb803d5",
+					"jsonFile" : "target-matplot-Debug-5d2faf55b0e84f90e262.json",
+					"name" : "matplot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "nodesoup::@f5e6e923592bef281b56",
+					"jsonFile" : "target-nodesoup-Debug-c42df28f7d7ba0b772d1.json",
+					"name" : "nodesoup",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/atomshermental/cpp_projects/kNN/cmake-build-debug",
+		"source" : "/Users/atomshermental/cpp_projects/kNN"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

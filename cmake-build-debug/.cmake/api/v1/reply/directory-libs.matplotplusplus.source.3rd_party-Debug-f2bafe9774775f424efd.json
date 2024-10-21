@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libs/matplotplusplus/source/3rd_party",
+		"source" : "libs/matplotplusplus/source/3rd_party"
+	}
+}
